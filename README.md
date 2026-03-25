@@ -1,4 +1,6 @@
 
+# zerodha-clone
+Zerodha landing page clone using HTML &amp; CSS
 
 # Zerodha Landing Page Clone
 
@@ -23,4 +25,3 @@ It is not affiliated with Zerodha.
 ## 🔗 Live Demo
 
 (Will add after deployment)
-
