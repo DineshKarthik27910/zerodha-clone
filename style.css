@@ -6,7 +6,7 @@ body{
     position: relative;
     width: 100%;
     height: 50px;
-    margin: 0 25 0 25;
+    margin: 0 25px;
     border-bottom: 1px solid #eee;
     justify-content: space-between;
     display: flex;
@@ -47,15 +47,21 @@ button{
     height: 30px;
     width: 125px;
     border: none;
+    border-radius: 5px;
 
 }
 button:hover{
    background-color: black;
    color: white;
 }
-h1,h5{
-    font-size: 15px;
-    font-weight: 0;
+
+h1 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #555;
+}
+h5 {
+    font-size: 20px;
     color: #555;
 }
 #hello p{
@@ -101,6 +107,9 @@ h6{
     width: 100%;
     max-width: 450px;
 }
+section {
+    padding: 80px 0;
+}
 .section{
     display: flex;
     justify-content: center;
@@ -110,7 +119,7 @@ h6{
 }
 .con{
     display: flex;
-    max-width: 900px;
+    max-width: 1100px;
     width: 70%;
     align-items: center;
     justify-content: space-between;
@@ -345,4 +354,22 @@ h6{
 }
 .kite a:hover{
     color: #387ed1;
+}
+
+
+@media (max-width: 768px) {
+    .con {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .box {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #spike {
+        flex-direction: column;
+        height: auto;
+    }
 }
