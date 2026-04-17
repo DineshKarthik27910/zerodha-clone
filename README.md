@@ -24,4 +24,4 @@ It is not affiliated with Zerodha.
 
 ## 🔗 Live Demo
 
-(Will add after deployment)
+https://dineshkarthik27910.github.io/zerodha-clone/
